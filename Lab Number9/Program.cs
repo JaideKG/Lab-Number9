@@ -15,7 +15,7 @@ namespace Lab_Number8
             //List<string>
             //ArrayList
             //No curly brace syntax to creat list
-            //myList.Add;
+            //nameList.Add;
             //atleast 5+ names
             //Console.WriteLine("Do you want information or add a name?");
             //if they want to add another student, a question must be added for each set of info
@@ -26,163 +26,245 @@ namespace Lab_Number8
 
             Console.WriteLine("Welcome to our C# class.");
 
-            ArrayList myList = new ArrayList();
+            ArrayList nameList = new ArrayList();
 
-            myList.Add("Angela");
-            myList.Add("Bob");
-            myList.Add("Cathy");
-            myList.Add("Daryl");
-            myList.Add("Erica");
-            myList.Add("Frank");
-            myList.Add("Gayle");
-            myList.Add("Harry");
-            myList.Add("Ilene");
-            myList.Add("Jack");
-            myList.Add("Karyn");
-            myList.Add("Larry");
-            myList.Add("Mary");
-            myList.Add("Nick");
-            myList.Add("Ola");
-            myList.Add("Patrick");
-            myList.Add("Qiara");
-            myList.Add("Ronald");
-            myList.Add("Samantha");
-            myList.Add("Travis");
-
-
-            ArrayList NextList = new ArrayList();
-
-            NextList.Add("Appleton");
-            NextList.Add("Broderick");
-            NextList.Add("Castleton");
-            NextList.Add("Detroit");
-            NextList.Add("Easton");
-            NextList.Add("Fullerton");
-            NextList.Add("Georgetown");
-            NextList.Add("Hockey");
-            NextList.Add("Illinois");
-            NextList.Add("Jackson");
-            NextList.Add("Keaton");
-            NextList.Add("Lansing");
-            NextList.Add("Minneapolis");
-            NextList.Add("Nickelson");
-            NextList.Add("Ottowa");
-            NextList.Add("Persian");
-            NextList.Add("Quebec");
-            NextList.Add("Rosedale");
-            NextList.Add("Sarasota");
-            NextList.Add("Townsville");
+            nameList.Add("Angela");
+            nameList.Add("Bob");
+            nameList.Add("Cathy");
+            nameList.Add("Daryl");
+            nameList.Add("Erica");
+            nameList.Add("Frank");
+            nameList.Add("Gayle");
+            nameList.Add("Harry");
+            nameList.Add("Ilene");
+            nameList.Add("Jack");
+            nameList.Add("Karyn");
+            nameList.Add("Larry");
+            nameList.Add("Mary");
+            nameList.Add("Nick");
+            nameList.Add("Ola");
+            nameList.Add("Patrick");
+            nameList.Add("Qiara");
+            nameList.Add("Ronald");
+            nameList.Add("Samantha");
+            nameList.Add("Travis");
 
 
-            ArrayList ThirdList = new ArrayList();
+            ArrayList HometownList = new ArrayList();
 
-            ThirdList.Add("Apricots");
-            ThirdList.Add("Blueberries");
-            ThirdList.Add("Cherries");
-            ThirdList.Add("Durian");
-            ThirdList.Add("Elderberries");
-            ThirdList.Add("Figs");
-            ThirdList.Add("Grapes");
-            ThirdList.Add("Honeydew");
-            ThirdList.Add("Imbe");
-            ThirdList.Add("Java Apple");
-            ThirdList.Add("Kiwi");
-            ThirdList.Add("Lime");
-            ThirdList.Add("Orange");
-            ThirdList.Add("Pear");
-            ThirdList.Add("Quince");
-            ThirdList.Add("Raspberries");
-            ThirdList.Add("Strawberries");
-            ThirdList.Add("Tangerine");
+            HometownList.Add("Appleton");
+            HometownList.Add("Broderick");
+            HometownList.Add("Castleton");
+            HometownList.Add("Detroit");
+            HometownList.Add("Easton");
+            HometownList.Add("Fullerton");
+            HometownList.Add("Georgetown");
+            HometownList.Add("Hockey");
+            HometownList.Add("Illinois");
+            HometownList.Add("Jackson");
+            HometownList.Add("Keaton");
+            HometownList.Add("Lansing");
+            HometownList.Add("Minneapolis");
+            HometownList.Add("Nickelson");
+            HometownList.Add("Ottowa");
+            HometownList.Add("Persian");
+            HometownList.Add("Quebec");
+            HometownList.Add("Rosedale");
+            HometownList.Add("Sarasota");
+            HometownList.Add("Townsville");
 
 
-            ArrayList FourthList = new ArrayList();
+            ArrayList FoodList = new ArrayList();
 
-            FourthList.Add("1");
-            FourthList.Add("2");
-            FourthList.Add("3");
-            FourthList.Add("4");
-            FourthList.Add("5");
-            FourthList.Add("6");
-            FourthList.Add("7");
-            FourthList.Add("8");
-            FourthList.Add("9");
-            FourthList.Add("10");
-            FourthList.Add("11");
-            FourthList.Add("12");
-            FourthList.Add("13");
-            FourthList.Add("14");
-            FourthList.Add("15");
-            FourthList.Add("16");
-            FourthList.Add("17");
-            FourthList.Add("18");
-            FourthList.Add("19");
-            FourthList.Add("20");
+            FoodList.Add("Apricots");
+            FoodList.Add("Blueberries");
+            FoodList.Add("Cherries");
+            FoodList.Add("Durian");
+            FoodList.Add("Elderberries");
+            FoodList.Add("Figs");
+            FoodList.Add("Grapes");
+            FoodList.Add("Honeydew");
+            FoodList.Add("Imbe");
+            FoodList.Add("Java Apple");
+            FoodList.Add("Kiwi");
+            FoodList.Add("Lime");
+            FoodList.Add("Orange");
+            FoodList.Add("Pear");
+            FoodList.Add("Quince");
+            FoodList.Add("Raspberries");
+            FoodList.Add("Strawberries");
+            FoodList.Add("Tangerine");
+
+
+            ArrayList NumberList = new ArrayList();
+
+            NumberList.Add(1);
+            NumberList.Add(2);
+            NumberList.Add(3);
+            NumberList.Add(4);
+            NumberList.Add(5);
+            NumberList.Add(6);
+            NumberList.Add(7);
+            NumberList.Add(8);
+            NumberList.Add(9);
+            NumberList.Add(10);
+            NumberList.Add(11);
+            NumberList.Add(12);
+            NumberList.Add(13);
+            NumberList.Add(14);
+            NumberList.Add(15);
+            NumberList.Add(16);
+            NumberList.Add(17);
+            NumberList.Add(18);
+            NumberList.Add(19);
+            NumberList.Add(20);
 
 
             string response = "Y";
             while (response == "Y")
             {
-                int counter = 0;
-                for (int i = 0; i < 10; i++)
+
+
+
                 {
-                    if (counter == 0)
-                        Console.WriteLine("Which student would you like to learn more about?(enter a number 1-20)");
-                    string input = Console.ReadLine();
+                    Console.WriteLine("Would you like to add a student or learn about a student? (Add or Learn)?");
+                    string answer = Console.ReadLine();
 
-                    int index;
-                    int.TryParse(input, out index);
-
-                    index--;
-
-
-                    Console.WriteLine($" What would you like to know about {myList[index]}? (enter hometown, food, number)");
-                    string responseOne = Console.ReadLine();
-                    while (responseOne != "hometown" && responseOne != "food" && responseOne != "number")
+                    if (answer == "Add")
                     {
-                        Console.WriteLine("The data does not exist. Please try again. (enter \"hometown\" or \"food\" or \"number\"");
-                        responseOne = Console.ReadLine();
+                        Console.WriteLine("Please enter a name: ");
+                        string name = Console.ReadLine();
+                        while(name == "")
+                        {
+                            Console.WriteLine("Blank spaces are invalid.");
+                            Console.WriteLine("Please enter a name: ");
+                            name = Console.ReadLine();
+                        }
+                        nameList.Add(name);
+                        
+
+                        Console.WriteLine("Please enter hometown");
+                        string hometown = Console.ReadLine();
+                        HometownList.Add(hometown);
+                        while(hometown == "")
+                        {
+                            Console.WriteLine("Blank spaces are invalid.");
+                            Console.WriteLine("Please enter the hometown: ");
+                            hometown = Console.ReadLine();
+                        }
+
+                        Console.WriteLine("Please enter food");
+                        string food = Console.ReadLine();
+                        while(food == "")
+                        {
+                            Console.WriteLine("Blank spaces are invalid.");
+                            Console.WriteLine("Please enter food item: ");
+                            food = Console.ReadLine();
+                        }
+                        FoodList.Add(food);
+                        Console.WriteLine("Please enter number");
+                        int number = 0;
+                        int.TryParse(Console.ReadLine(), out number);
+                        while(number == 0)
+                        {
+                            Console.WriteLine("Blank spaces are invalid.");
+                            Console.WriteLine("Please enter a number: ");
+                            int.TryParse(Console.ReadLine(), out number);
+                        }
+                        NumberList.Add(number);
+
+                       
                     }
+                    else if (answer == "Learn")
+                    {
 
-                    if (responseOne == "hometown")
-                    {
-                        Console.WriteLine($"{myList[index]} is from {NextList[index]}.");
-                    }
-                    else if (counter > 0 && input == "food")
-                    {
-                        Console.WriteLine($"{myList[index]}\'s favorite food is {ThirdList[index]}.");
-                    }
-                    else if (counter > 0 && input == "number")
-                    {
-                        Console.WriteLine($"{myList[index]}\'s favorite number is {FourthList[index]}.");
-                        Console.ReadLine();
-                    }
-                    else if (input == "new student")
-                    {
-                        counter = -1;
+                        Console.WriteLine($"Index has to be a number between 1 and {nameList.Count}.");
+                        Console.WriteLine("Please enter a number.");
+                        string input = Console.ReadLine();
+                                                
+                        int index;
+                        int.TryParse(input, out index);
+
+                        while(index < 1 || index > nameList.Count)
+                        {
+                            Console.WriteLine($"Index has to be a number between 1 and {nameList.Count}");
+                            Console.WriteLine("Please enter a number.");
+                            input = Console.ReadLine();
+                                                       
+                            int.TryParse(input, out index);
+                        }
+                                                                    
+                        index--;
+                   
+
+
+                        {
+                            string respTwo = "Y";
+                            while (respTwo == "Y")
+                            {
+
+                                Console.WriteLine($" What would you like to know about {nameList[index]}? (enter hometown, food, number)");
+                                string responseOne = Console.ReadLine();
+                                while (responseOne != "hometown" && responseOne != "food" && responseOne != "number")
+                                {
+                                    Console.WriteLine("The data does not exist. Please try again. (enter \"hometown\" or \"food\" or \"number\"");
+                                    responseOne = Console.ReadLine();
+                                }
+
+                                if (responseOne == "hometown")
+                                {
+                                    Console.WriteLine($"{nameList[index]} is from {HometownList[index]}.");
+                                }
+                                else if (responseOne == "food")
+                                {
+                                    Console.WriteLine($"{nameList[index]}\'s favorite food is {FoodList[index]}.");
+                                }
+                                else if (responseOne == "number")
+                                {
+                                    Console.WriteLine($"{nameList[index]}\'s favorite number is {NumberList[index]}.");
+                                }
+
+                                Console.WriteLine("Would you like tot learn more about the student? (Y/N)?");
+                                respTwo = Console.ReadLine();
+                                while(respTwo != "Y" && respTwo != "N")
+                                {
+                                    Console.WriteLine("Your response is invalid.");
+                                    Console.WriteLine("Would you like to learn more about the student? (Y/N)?");
+                                    respTwo = Console.ReadLine();
+                                }
+
+                          
+                            }
+
+
+
+                        }
                     }
                     else
                     {
-                        Console.WriteLine("Sorry, your input is invalid.");
+                        Console.WriteLine("Your input is not valid. Try again.");
+                        continue;
                     }
 
+                    Console.WriteLine("Would you like to continue? (Y/N)?");
+                    response = Console.ReadLine().ToUpper();
+                    while (response != "Y" && response != "N")
+                    {
+                        Console.WriteLine("Your response is not valid.");
+                        Console.WriteLine("Would you like to continue? (Y/N)?");
+                        response = Console.ReadLine().ToUpper();
+                    }
+                    
 
+                    if (response.ToUpper() == "N")
+                    {
+                        Console.WriteLine("Thanks!");
 
+                        break;
+                    }
                 }
-                Console.WriteLine("Would you like to enter another number? (Y/N)?");
-                response = Console.ReadLine();
 
-
-
-
-
-                if (response.ToUpper() == "N")
-                {
-                    Console.WriteLine("Thanks!");
-
-                }
             }
-
         }
     }
 }
